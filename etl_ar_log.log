@@ -1,0 +1,41 @@
+2025-05-08 10:46:05,136:INFO:AR ETL job started
+2025-05-08 10:46:05,136:INFO:Starting AR data extraction
+2025-05-08 10:46:05,138:ERROR:Extraction failed: [Errno 2] No such file or directory: 'account_receivables.csv'
+2025-05-08 10:46:05,138:ERROR:AR ETL job failed: [Errno 2] No such file or directory: 'account_receivables.csv'
+2025-05-08 10:47:08,888:INFO:AR ETL job started
+2025-05-08 10:47:08,889:INFO:Starting AR data extraction
+2025-05-08 10:47:08,891:ERROR:Extraction failed: 'utf-8' codec can't decode byte 0xa7 in position 12: invalid start byte
+2025-05-08 10:47:08,891:ERROR:AR ETL job failed: 'utf-8' codec can't decode byte 0xa7 in position 12: invalid start byte
+2025-05-08 10:48:35,006:INFO:AR ETL job started
+2025-05-08 10:48:35,007:INFO:Starting AR data extraction
+2025-05-08 10:48:35,007:ERROR:Extraction failed: read_csv() got an unexpected keyword argument 'errors'
+2025-05-08 10:48:35,007:ERROR:AR ETL job failed: read_csv() got an unexpected keyword argument 'errors'
+2025-05-08 10:50:25,704:INFO:AR ETL job started
+2025-05-08 10:50:25,704:INFO:Starting AR data extraction
+2025-05-08 10:50:25,707:ERROR:Extraction failed: Error tokenizing data. C error: Expected 1 fields in line 14, saw 2
+
+2025-05-08 10:50:25,707:ERROR:AR ETL job failed: Error tokenizing data. C error: Expected 1 fields in line 14, saw 2
+
+2025-05-08 10:52:48,920:INFO:AR ETL job started
+2025-05-08 10:52:48,921:INFO:Starting AR data extraction
+2025-05-08 10:52:48,924:WARNING:Skipped 1865 malformed lines during extraction.
+2025-05-08 10:52:48,930:INFO:Extracted 0 rows from AR data
+2025-05-08 10:52:48,931:ERROR:AR ETL job failed: Missing required columns in AR data
+2025-05-08 10:55:56,119:INFO:AR ETL job started
+2025-05-08 10:55:56,120:INFO:Starting AR data extraction
+2025-05-08 10:55:56,123:WARNING:Skipped 1865 malformed lines during extraction.
+2025-05-08 10:55:56,128:INFO:Extracted 0 rows from AR data
+2025-05-08 10:55:56,128:ERROR:AR ETL job failed: Missing required columns in AR data
+2025-05-08 11:00:35,134:INFO:AR ETL job started
+2025-05-08 11:00:35,135:INFO:Starting AR data extraction
+2025-05-08 11:00:35,139:INFO:Extracted 5 rows from AR data
+2025-05-08 11:00:35,139:ERROR:AR ETL job failed: Missing required columns in AR data
+2025-05-08 11:04:23,749:INFO:AR ETL job started
+2025-05-08 11:04:23,750:INFO:Starting AR data extraction
+2025-05-08 11:04:23,756:INFO:Extracted 4 rows from AR data
+2025-05-08 11:04:23,756:INFO:Starting AR data transformation
+2025-05-08 11:04:23,765:WARNING:Null values found in AR data
+2025-05-08 11:04:23,771:INFO:AR data transformation complete
+2025-05-08 11:04:23,771:INFO:Starting AR data load
+2025-05-08 11:04:23,789:INFO:AR data load successful
+2025-05-08 11:04:23,789:INFO:AR ETL job completed successfully
